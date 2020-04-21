@@ -1,5 +1,8 @@
 FROM ruby:2.6.5
 
+# install node for ExecJS support
+RUN apt-get update && apt-get install -y nodejs
+
 # install a modern bundler version
 RUN gem install bundler
 
