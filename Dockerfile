@@ -1,4 +1,4 @@
-FROM ruby:2.6.5
+FROM ruby:2.7.0
 
 # install node for ExecJS support
 RUN apt-get update && apt-get install -y nodejs
